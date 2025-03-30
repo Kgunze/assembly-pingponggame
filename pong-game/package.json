@@ -1,0 +1,23 @@
+{
+  "name": "pong-game",
+  "version": "1.0.0",
+  "description": "A classic Pong game written in Assembly that runs in the browser.",
+  "main": "src/main.asm",
+  "scripts": {
+    "start": "http-server .",
+    "build": "echo 'Build step not defined'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "pong",
+    "game",
+    "assembly",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
